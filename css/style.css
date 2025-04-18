@@ -177,12 +177,7 @@ body {
   background-color: #fbd069;
 }
 
-.clickable-area {
-  cursor: pointer;
-}
 
-
-<style>
     header {
       text-align: center;
       padding: 20px 0;
@@ -229,4 +224,4 @@ body {
       margin: 0;
       padding: 0;
     }
-  </style>
+ 
