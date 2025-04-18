@@ -1,0 +1,182 @@
+body {
+  background-color: #aae5f6;
+}
+
+.main-card {
+  background-color: #e3f2fd;
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  margin-top: 5rem;
+}
+.logo-img {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+.btn-custom {
+  background-color: #f99338;
+  color: white;
+  border-radius: 0.75rem;
+}
+.btn-custom:hover {
+  color: black;
+  background-color: #fbd069;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+
+ body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #cce7ff;
+        color: #333;
+        line-height: 2;
+        direction: rtl;
+        }
+        header {
+            background: #f99338;
+            color: #fff;
+            text-align: left;
+            padding: 0.5rem 1rem;
+            display: flex;
+            align-items: center;
+            }
+            .logo img {
+  width: 150px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  font-style: italic;
+  margin-left: 160px;
+}
+
+footer {
+  text-align: center;
+  padding:1rem 0;
+  background: #f99338;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 2px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  background-color: #e3f2fd;
+  border-radius: 1rem;
+}
+
+.logo-img {
+  max-width: 150px;
+}
+
+.login-btn {
+  background-color: #f99338;
+  color: white;
+  transition: 0.3s ease;
+}
+.login-btn:hover {
+  color: black;
+  background-color: #fbd069;
+}
+
+
+
+
+
+
+
+
+
+
+
+.register-card {
+  width: 100%;
+  max-width: 600px;
+  background-color: #e3f2fd;
+  border-radius: 1rem;
+}
+
+.register-btn {
+  background-color: #f99338;
+  color: white;
+  transition: 0.3s ease;
+}
+.register-btn:hover {
+  color: black;
+  background-color: #fbd069;
+}
+
+body {
+  background-color: #aae5f6;
+}
+
+.logo-img {
+  max-width: 150px;
+}
+
+
+
+
+
+
+.about-card, .contact-card {
+  background-color: #e3f2fd;
+  border-radius: 1rem;
+  max-width: 500px;
+  width: 100%;
+}
+
+.logo-img {
+  width: 100px;
+  height: auto;
+}
+
+.contact-btn {
+  background-color: #f99338;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+  color: black;
+  background-color: #fbd069;
+}
+
+.clickable-area {
+  cursor: pointer;
+}
