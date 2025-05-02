@@ -227,14 +227,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
  .footer-second {
       background-color: #f8f9fa;
       padding: 20px 0;
@@ -280,3 +272,231 @@ body {
     footer a:hover {
       text-decoration: underline;
     }
+
+
+
+
+
+
+
+
+
+
+.product-card {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .badge-floating {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .product-image {
+            transition: transform 0.3s ease;
+            object-fit: cover;
+        }
+
+        .product-card:hover .product-image {
+            transform: scale(1.05);
+        }
+
+        .color-option {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 0 5px;
+            cursor: pointer;
+            border: 2px solid #fff;
+            box-shadow: 0 0 0 1px #ddd;
+        }
+
+        .color-option.active {
+            box-shadow: 0 0 0 2px #0d6efd;
+        }
+/* Set the main image size */
+    .product-gallery img {
+      max-height: 400px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    /* Thumbnail container */
+    .product-gallery .thumbnails img {
+      cursor: pointer;
+      transition: transform 0.3s ease;  /* Smooth hover effect */
+      width: 100%;   /* Ensure all thumbnails have the same width */
+      height: auto;  /* Maintain aspect ratio */
+      max-width: 80px; /* Set max width for thumbnails */
+    }
+
+    /* Hover effect to slightly increase the size of thumbnails */
+    .product-gallery .thumbnails img:hover {
+      transform: scale(1.1);
+    }
+
+    /* Optional: Add margin around thumbnails */
+    .product-gallery .thumbnails .col-3 {
+      padding: 0; /* Remove default padding from columns */
+    }
+
+.btn-prim {
+  background-color: #1eaae5;
+  color: white;
+  border-radius: 0.4rem;
+}
+.btn-prim:hover {
+  color: #b71b1f;
+  background-color: #f8c4cb;
+}
+
+.btn-bluee {
+  background-color: #1eaae5;
+  color: white;
+  border-radius: 0.40rem;
+}
+.btn-bluee:hover {
+  color: black;
+  background-color: #60cbf8;
+}
+
+
+body {
+    padding-top: 0px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .star-rating {
+            direction: rtl;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .star-rating input {
+            display: none;
+        }
+
+        .star-rating label {
+            color: #ddd;
+            font-size: 24px;
+            padding: 0 2px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .star-rating label:hover,
+        .star-rating label:hover~label,
+        .star-rating input:checked~label {
+            color: #ffc107;
+        }
+
+        .comment-section {
+            background-color: #1eaae5;
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .comment-section .form-label {
+            color: #fff;
+        }
+
+        .comment-section textarea {
+            background-color: #fff;
+            color: #000;
+        }
+
+        .comment-section .btn-primary {
+            background-color: #f99338;
+            border-color: #ffffff;
+        }
+
+        .btn-primary:hover {
+            color: black;
+            background-color: #fbd069;
+        }
+
+        .comment-box {
+            background-color: #1eaae5;
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            height: 100%;
+            overflow-y: auto;
+        }
+
+        .comment-box h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .comment-box .border {
+            background-color: #fff;
+            color: #000;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .comment-box .border p {
+            font-size: 1.1rem;
+        }
+
+        .container .row {
+            display: flex;
+            justify-content: space    justify-content: space-between;
+        }
+
+        .col-md-6 {
+            width: 50%;
+        }
+
+
+
+
+
+.similar-places {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.similar-places .card {
+    flex: 0 0 auto; /* Prevent cards from shrinking */
+    margin-right: 5px; /* Space between cards */
+    width: 30rem;
+        height:7rem; /* Set a smaller width for the cards */
+}
+
+.similar-places h5 {
+    font-size: 1rem; /* Adjust the font size of the title */
+}
+  
